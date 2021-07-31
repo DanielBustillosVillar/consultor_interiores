@@ -1,12 +1,16 @@
 
 *{
     margin: 0;
-    background: #0c0b0b;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+body{
+    background: #181719;
 }
 img{
     width: 100%;
+    height: 100%;
 }
 .cabecera{
     display: flex;
@@ -20,7 +24,6 @@ img{
     font-size: 14px;
     font-family: 'Crimson Pro', serif;
     text-decoration: none;
-    color: #ffffff;
     border: 1px solid #ffffff;
     padding: 8px;
 }
@@ -58,7 +61,6 @@ img{
 }
 .link_menu{
     text-decoration: none;
-    color: #ffffff;
     display: block;
     padding: 16px 0;
 }
@@ -66,9 +68,78 @@ img{
     background: #ffffff;
     color: #0c0b0b;
 }
+.principal{
+    margin: 12px;
+}
 .titulo{
     font-family: 'Lora', serif;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 25px;
+}
+.introduccion p{
+    font-size: 14px;
+    font-weight: 400;
+    width: 70%;
+    line-height: 17px;
+    font-style: normal;
+}
+.more{
+    display: block;
+    margin: 25px 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.autora figure{
+    height: 264px;
+}
+.tarjeta{
+    width: 300px;
+    background: #181719;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 13px 22px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8%;
+    position: relative;
+    top: -50px;
+}
+.tarjeta img{
+    width: 12%;
+    border-radius: 100%;
+}
+.datos{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 12px;
+}
+.tarjeta h2{
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+}
+.tarjeta h3{
+    font-size: 10px;
+    display: inline-block;
+    font-weight: 500;
 }
 .tarjeta p{
     font-family: 'Lora', serif;
+    font-weight: bold;
+    display: block;
+    width: 70%;
+    font-size: 18px;
+}
+.footer{
+    text-align: center;
+    margin: 30px 0;
+}
+.footer p a{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
 }
