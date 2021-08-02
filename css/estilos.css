@@ -7,6 +7,8 @@
 }
 body{
     background: #181719;
+    max-width: 1200px;
+    margin: auto;
 }
 img{
     width: 100%;
@@ -18,7 +20,6 @@ img{
     justify-content: space-between;
     align-items: center;
     padding: 15px 12px;
-    height: 75px;
 }
 .boton{
     font-size: 14px;
@@ -68,8 +69,32 @@ img{
     background: #ffffff;
     color: #0c0b0b;
 }
+@media (min-width: 768px){
+    .cabecera{
+        padding: 20px 70px 0;
+    }
+    .menu-hamburguer, .close_menu{
+        display: none;
+    }
+    .menu{
+        position: relative;
+        top: 0;
+        width: auto;
+        height: auto;
+    }
+    .menu ul{
+        display: flex;
+        margin-top: 0;
+    }
+    .link_menu{
+        text-align: center;
+        padding: 16px 43px;
+        font-size: 17px;
+    }
+
+}
 .principal{
-    margin: 12px;
+    padding: 12px;
 }
 .titulo{
     font-family: 'Lora', serif;
@@ -134,6 +159,46 @@ img{
     width: 70%;
     font-size: 18px;
 }
+@media (min-width: 768px){
+    .titulo{
+        font-size: 45px;
+    }
+    .principal{
+        padding: 100px 70px 0;
+        display: flex;
+    }
+    .introduccion{
+        width: 40%;
+        height: fit-content;
+        margin-top: 10%;
+    }
+    .introduccion p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .autora{
+        width: 60%;
+        padding-right: 43px;
+    }
+    .autora figure{
+        height: 70%;
+    }
+    .tarjeta{
+        margin-left: 45%;
+    }
+    .more{
+        font-size: 16px;
+    }
+    .tarjeta h2{
+        font-size: 14px;
+    }
+    .tarjeta h3{
+        font-size: 12px;
+    }
+    .tarjeta p{
+        font-size: 20px;
+    }
+}
 .footer{
     text-align: center;
     margin: 30px 0;
@@ -142,4 +207,9 @@ img{
     font-weight: bold;
     font-style: italic;
     text-decoration: none;
+}
+@media (min-width: 768px){
+    .footer{
+        margin: 0 0 15px 0;
+    }
 }
