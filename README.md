@@ -17,6 +17,7 @@
 
 - HTML
 - CSS
+-JAVASCRIPT
 ## Contacto
 
 - GitHub [DanielBustillosVillar](https://github.com/DanielBustillosVillar)
